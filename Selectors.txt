@@ -1,0 +1,23 @@
+Search field:
+
+X-path:
+
+"search" 
+//*[@id="search-bar"]
+//form//input[@id="search-bar"]
+//input[@id="search-bar"]
+//input[@placeholder="Search"]
+//input[@type="text" and @placeholder="Search"]
+/html//body//app-root//div//app-header//header//nav//div//form//input
+
+
+CSS selectors:
+
+#search-bar
+[placeholder='Search']
+[placeholder~=Search]
+form.search-container > input
+[id*=search-]
+form input[id='search-bar']
+
+
