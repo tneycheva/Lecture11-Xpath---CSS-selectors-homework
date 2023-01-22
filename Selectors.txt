@@ -2,7 +2,6 @@ Search field:
 
 X-path:
 
-"search" 
 //*[@id="search-bar"]
 //form//input[@id="search-bar"]
 //input[@id="search-bar"]
