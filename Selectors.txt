@@ -9,6 +9,7 @@ X-path:
 //input[@placeholder="Search"]
 //input[@type="text" and @placeholder="Search"]
 /html//body//app-root//div//app-header//header//nav//div//form//input
+//*[@id="search-bar"]
 
 
 CSS selectors:
@@ -19,5 +20,5 @@ CSS selectors:
 form.search-container > input
 [id*=search-]
 form input[id='search-bar']
-
+[id|=search]
 
